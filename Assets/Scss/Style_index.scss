@@ -8,12 +8,15 @@
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.nav-height {
-  height: 50px;
-}
+@media (min-width: 768px) {
+  .nav-wrapper {
+    height: inherit;
+    position: absolute;
+  }
 
-.nav-wrapper {
-  height: inherit;
+  .nav-height {
+    height: 50px;
+  }
 }
 
 .m-icon {
