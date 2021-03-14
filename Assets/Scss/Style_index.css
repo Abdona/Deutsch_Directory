@@ -1,7 +1,8 @@
 .home-bg-img {
   background: url(../Images/pexels-shvets-anna-2570063.jpg) no-repeat;
   background-size: cover;
-  background-position: 0% 77%;
+  background-position: 47% 77%;
+  height: 87vh;
 }
 
 .home-form-col {
@@ -16,10 +17,20 @@
   .nav-height {
     height: 50px;
   }
+  .home-bg-img {
+    background: url(../Images/pexels-shvets-anna-2570063.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0% 77%;
+    height: auto;
+  }
 }
 
 .m-icon {
   margin-right: 5px;
   margin-bottom: 4px;
+}
+
+.overflow {
+  overflow: auto;
 }
 /*# sourceMappingURL=Style_index.css.map */
