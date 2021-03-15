@@ -23,11 +23,17 @@
     background-position: 0% 77%;
     height: auto;
   }
+  .logo-overlap {
+    z-index: 2;
+  }
 }
 
 @media (min-width: 768px) and (min-width: 1024px) {
   .w-md-34 {
     width: 34%;
+  }
+  .w-lg-75 {
+    width: 75%;
   }
 }
 
