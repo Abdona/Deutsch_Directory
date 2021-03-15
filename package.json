@@ -1,0 +1,24 @@
+{
+  "name": "Deutsch_Directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch ./Assets/Scss/Style_index.scss ./Assets/Scss/Style_index.css --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdona/Deutsch_Directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdona/Deutsch_Directory/issues"
+  },
+  "homepage": "https://github.com/Abdona/Deutsch_Directory#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "stylelint": "^13.12.0"
+  }
+}
