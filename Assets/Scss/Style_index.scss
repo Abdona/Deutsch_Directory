@@ -26,8 +26,10 @@
     height: auto;
   }
 
-  .w-md-34 {
-    width: 34%;
+  @media (min-width: 1024px) {
+    .w-md-34 {
+      width: 34%;
+    }
   }
 }
 
