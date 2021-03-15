@@ -43,13 +43,17 @@
     <!--Search section-->
     <section class="mt-5 bg-secondary-a py-5 search text-center">
         <div>
-            <h2 class="fs-4 text-black-50"><img src="Assets/Images/Icons/filter.svg" alt="filter"> Filter by name,Level,Curriculm,Type,and Group Type:</h2>
+            <h2 class="fs-4 text-black-50"><img src="Assets/Images/Icons/filter.svg" alt="filter"> Filter by
+                name,Level,Curriculm,Type,and Group Type:</h2>
         </div>
         <form action="#">
-            <div class="m-lg-5 w-lg-78 justify-content-between position-relative overflow form_wrapper d-flex">
-                <div><label class="d-block" for="school">Center Name:*</label><input class="form-select" type="text" id="school"
-                        name="school_name"></div>
-                <div><label class="d-block" for="level">Level:</label><select class="form-select" name="level" id="level">
+            <div class="my-lg-5 mx-lg-4 position-relative overflow form_wrapper d-md-flex">
+                <div class="d-none d-md-block w-25 w-md-15"><label class="fw-bold d-block" for="school">Center Name:*</label><input
+                        class="form-select" type="text" id="school" name="school_name"></div>
+                <div class="d-block d-md-none w-md-15"><label class="fw-bold d-block" for="school">Center Name:*</label><input
+                        class="form-select" type="text" id="school" name="school_name"></div>
+                <div><label class="fw-bold d-block" for="level">Level:</label><select class="form-select" name="level"
+                        id="level">
                         <option selected></option>
                         <option value="A1">A1</option>
                         <option value="A2">A2</option>
@@ -58,22 +62,24 @@
                         <option value="C1">C1</option>
                         <option value="C2">C2</option>
                     </select></div>
-                <div><label class="d-block" for="school">Curriculm:</label><select name="Curriculm" class="form-select" id="curriculm">
+                <div class="w-md-15"><label class="fw-bold d-block" for="school">Curriculm:</label><select
+                        name="Curriculm" class="form-select" id="curriculm">
                         <option selected></option>
                         <option value="menschen-int">Menschen-Intensive</option>
                         <option value="menschen">Menschen</option>
                         <option value="Aspektte-int">Aspektte-Intensive</option>
                         <option value="Aspektte">Aspektte</option>
                     </select></div>
-                <div><label class="d-block" class="form-select" for="Type">Type:</label><select class="form-select" name="type" id="type">
+                <div><label class="fw-bold d-block" class="form-select" for="Type">Type:</label><select
+                        class="form-select" name="type" id="type">
                         <option selected></option>
                         <option value="Conversation">Conversation</option>
                         <option value="General German">General German</option>
                         <option value="academic">Academic writing</option>
                     </select>
                 </div>
-                <div><label class="d-block" for="school">Group Type</label><select class="form-select" name="group-type"
-                        id="group">
+                <div><label class="fw-bold d-block" for="school">Group Type</label><select class="form-select"
+                        name="group-type" id="group">
                         <option selected></option>
                         <option value="Private">Private</option>
                         <option value="semi-full">2-4</option>
@@ -81,7 +87,9 @@
                     </select></div>
                 <div class="mt-4 float-end butt-wrapper">
                     <button class="bg-primary border p-1 rounded text-white p-0 m-0">Search</button>
-                    <button class="bg-warning border p-1 rounded text-white p-0"><img src="Assets/Images/Icons/actualize-arrows-couple-in-circle.svg" alt="reset"> clear filter</button>
+                    <button class="bg-warning border p-1 rounded text-white p-0"><img
+                            src="Assets/Images/Icons/actualize-arrows-couple-in-circle.svg" alt="reset"> clear
+                        filter</button>
                 </div>
             </div>
         </form>
