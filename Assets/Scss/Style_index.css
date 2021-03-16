@@ -5,6 +5,22 @@
   height: 87vh;
 }
 
+.bg-lightred {
+  background-color: #e17f65;
+}
+
+.bg-lightgrey {
+  background-color: #98a4a5;
+}
+
+.bg-lightblue {
+  background-color: #509bd7;
+}
+
+.bg-nav {
+  background-color: #d3564a;
+}
+
 .home-form-col {
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -43,6 +59,15 @@
   }
   .w-lg-75 {
     width: 75%;
+  }
+  .search-card {
+    width: 30%;
+    height: 241px;
+    overflow: hidden;
+  }
+  .search-card .card-img {
+    max-width: 100%;
+    height: inherit;
   }
 }
 

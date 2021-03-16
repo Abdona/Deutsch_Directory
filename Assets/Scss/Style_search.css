@@ -1,4 +1,11 @@
 .bg-secondary-a {
   background-color: #e9ecef;
 }
+
+.result_card {
+  width: 25%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
 /*# sourceMappingURL=Style_search.css.map */
