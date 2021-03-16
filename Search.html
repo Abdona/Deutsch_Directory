@@ -53,13 +53,13 @@
         </div>
         <form action="#">
             <div class="my-lg-5 mx-lg-4 position-relative overflow form_wrapper d-md-flex">
-                <div class="d-none d-md-block w-25 w-md-15"><label class="fw-bold d-block" for="school">Center Name:*</label><input
+                <div class="d-none d-md-block w-25 w-md-15"><label class="fw-bold d-block" for="Center">Center Name:*</label><input
                         class="form-select" type="text" id="Center" name="Center_name"></div>
-                <div class="d-block d-md-none w-md-15"><label class="fw-bold d-block" for="school">Center Name:*</label><input
+                <div class="d-block d-md-none w-md-15"><label class="fw-bold d-block" for="Level">Center Name:*</label><input
                         class="form-select" type="text" id="Level" name="level"></div>
                 <div><label class="fw-bold d-block" for="level">Level:</label><select class="form-select" name="level"
                         id="level">
-                        <option selected><span>" "</span></option>
+                        <option hidden disabled selected value> -- select an option -- </option>
                         <option value="A1">A1</option>
                         <option value="A2">A2</option>
                         <option value="B1">B1</option>
@@ -67,17 +67,17 @@
                         <option value="C1">C1</option>
                         <option value="C2">C2</option>
                     </select></div>
-                <div class="w-md-15"><label class="fw-bold d-block" for="school">Curriculm:</label><select
+                <div class="w-md-15"><label class="fw-bold d-block" for="curriculm">Curriculm:</label><select
                         name="Curriculm" class="form-select" id="curriculm">
-                        <option selected></option>
+                        <option hidden disabled selected value> -- select an option -- </option>
                         <option value="menschen-int">Menschen-Intensive</option>
                         <option value="menschen">Menschen</option>
                         <option value="Aspektte-int">Aspektte-Intensive</option>
                         <option value="Aspektte">Aspektte</option>
                     </select></div>
-                <div><label class="fw-bold d-block form-select" for="type">Type:</label><select
+                <div><label class="fw-bold d-block" for="type">Type:</label><select
                         class="form-select" name="type" id="type">
-                        <option selected></option>
+                        <option hidden disabled selected value> -- select an option -- </option>
                         <option value="Conversation">Conversation</option>
                         <option value="General German">General German</option>
                         <option value="academic">Academic writing</option>
@@ -85,7 +85,7 @@
                 </div>
                 <div><label class="fw-bold d-block" for="school">Group Type</label><select class="form-select"
                         name="group-type" id="group">
-                        <option selected></option>
+                        <option hidden disabled selected value> -- select an option -- </option>
                         <option value="Private">Private</option>
                         <option value="semi-full">2-4</option>
                         <option value="full">4-8</option>
