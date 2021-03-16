@@ -5,6 +5,26 @@
   height: 87vh;
 }
 
+.hambutt {
+  display: inline-block;
+}
+
+.hambutt div {
+  background-color: #f5f5dc;
+  width: 15px;
+  margin-right: 5px;
+  height: 2px;
+  border-radius: 30%;
+}
+
+.ham-2 {
+  margin-top: 3px;
+}
+
+.ham-3 {
+  margin-top: 3px;
+}
+
 .bg-lightred {
   background-color: #e17f65;
 }
@@ -77,7 +97,6 @@
     }
   }
 }
-
 
 .m-icon {
   margin-right: 5px;
