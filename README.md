@@ -13,7 +13,7 @@ It has 3 pages, Main page where you can find 2 main sections,the search section 
 
 # Search Page
 
-| ![screenshot](/Assets/Images/searchlg.png) | ![screenshot](/Assets/Images/searchpagemd.jpg) | ![screenshot](/Assets/Images/homepagecs.jpg) |
+| ![screenshot](/Assets/Images/homepagecs.jpg) | ![screenshot](/Assets/Images/searchpagemd.jpg) | ![screenshot](/Assets/Images/searchlg.png) |
 | :------------: | :-------------:| :-------------: |
 |  Mobile View  |  Tablet View   | Laptop View |
 
@@ -38,7 +38,7 @@ Mobile View  | Tablet View   | Laptop View
 
 ## Live Demo
 
-[Newweek](https://abdona.github.io/NewsWeek-BS/)
+[Deutsch Welt](https://abdona.github.io/Deutsch_Directory/)
 
 
 ## Getting Started
