@@ -1,0 +1,32 @@
+.bg-blue {
+  color: #6eaadd;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.w-49 {
+  width: 49%;
+}
+
+.ifram-cont {
+  position: relative;
+  padding-bottom: 60%;
+}
+
+iframe {
+  padding: 30px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+}
+/*# sourceMappingURL=Style_searchresult.css.map */

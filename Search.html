@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="Assets/Scss/Style_index.css">
+    <link rel="stylesheet" href="Assets/Scss/Style_search.css">
+    <title>Deutsch courses Search</title>
+</head>
+<body>
+    <header class="overflow">
+        <nav class="position-fixed w-100 logo-overlap bg-navbar mt-md-0 nav nav-height justify-content-md-start justify-content-center">
+            <a href="index.html" class="mt-3 mt-md-1 ms-md-4 text-decoration-none text-white">
+                <h1 class="fs-4">
+                    <img width="30" height="30" src="Assets/Images/Icons/location-pin.svg" alt="location-pin" />
+                    DeutschWelt
+                </h1>
+            </a>
+            <div class="nav-wrapper mt-3 mt-md-0 pb-md-0 pb-2 end-0 d-flex me-md-5">
+                <ul class="align-content-center nav">
+                    <li class="ms-md-3">
+                        <a class="d-md-inline-block text-white text-decoration-none"
+                            href="Search.html"><img width="14" height="14" class="m-icon" src="Assets/Images/Icons/loupe.svg"
+                            alt="searchicon" /><span class="d-none d-lg-inline-block">Zentrum</span></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-white text-decoration-none" href="index.html#aboutus"><img src="Assets/Images/Icons/stick-man.svg" class="m-icon" alt="man"><span class="d-none d-lg-inline-block">About</span></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-white text-decoration-none" href="#"><img src="Assets/Images/Icons/wifi-signal.svg" class="m-icon" alt="wifi-signal"><span class="d-none d-lg-inline-block">Blog</span></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-white text-decoration-none" href="#">
+                            <div class="hambutt">
+                            <div></div>
+                            <div class="ham-2"></div>
+                            <div class="ham-3"></div>
+                          </div><span class="d-none d-lg-inline-block">More...</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Search section-->
+    <section class="margin-top bg-secondary-a py-5 search text-center">
+        <div>
+            <h2 class="fs-4 text-black-50"><img src="Assets/Images/Icons/filter.svg" alt="filter"> Filter by
+                name,Level,Curriculm,Type,and Group Type:</h2>
+        </div>
+        <form action="#">
+            <div class="my-lg-5 mx-lg-4 position-relative overflow form_wrapper d-md-flex">
+                <div class="d-none d-md-block w-25 w-md-15"><label class="fw-bold d-md-none d-lg-block" for="Center">Center Name:*</label>
+                    <label class="fw-bold d-lg-none d-md-block" for="Center">Center:*</label><input
+                        class="form-select" type="text" id="Center" name="Center_name"></div>
+                <div class="d-block d-md-none w-md-15"><label class="fw-bold d-block" for="Level">Center Name:*</label><input
+                        class="form-select" type="text" id="Level" name="level"></div>
+                <div class="w-md-15 w-lg-10"><label class="fw-bold d-block" for="level">Level:</label><select class="form-select" name="level"
+                        id="level">
+                        <option hidden disabled selected value> -- select an option -- </option>
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </select></div>
+                <div class="w-md-15 w-lg-10"><label class="fw-bold d-block" for="curriculm">Curriculm:</label><select
+                        name="Curriculm" class="form-select" id="curriculm">
+                        <option hidden disabled selected value> -- select an option -- </option>
+                        <option value="menschen-int">Menschen-Intensive</option>
+                        <option value="menschen">Menschen</option>
+                        <option value="Aspektte-int">Aspektte-Intensive</option>
+                        <option value="Aspektte">Aspektte</option>
+                    </select></div>
+                <div class="w-md-15 w-lg-10"><label class="fw-bold d-block" for="type">Type:</label><select
+                        class="form-select" name="type" id="type">
+                        <option hidden disabled selected value> -- select an option -- </option>
+                        <option value="Conversation">Conversation</option>
+                        <option value="General German">General German</option>
+                        <option value="academic">Academic writing</option>
+                    </select>
+                </div>
+                <div class="w-md-15 w-lg-10"><label class="fw-bold d-block" for="group">Group Type</label><select class="form-select"
+                        name="group-type" id="group">
+                        <option hidden disabled selected value> -- select an option -- </option>
+                        <option value="Private">Private</option>
+                        <option value="semi-full">2-4</option>
+                        <option value="full">4-8</option>
+                    </select></div>
+                <div class="mt-4 float-end butt-wrapper">
+                    <button class="bg-primary border p-1 rounded text-white p-0 m-0">Search</button>
+                    <button class="bg-warning border p-1 rounded text-white p-0"><img
+                            src="Assets/Images/Icons/actualize-arrows-couple-in-circle.svg" alt="reset"> clear
+                        filter</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!--Search Result-->
+    <section class="mt-3">
+        <h2 class="mb-3 text-black-50 text-center w-50 mx-auto">Search Results Found 7 Center(s).</h2>
+        <div class="w-lg-75 w-75 d-md-flex mx-auto overflow rst-container flex-row flex-wrap justify-content-between">
+        <div class="search-card mb-3 w-md-45"><a class="search-card" href="result-details.html"><img class="card-img" alt="dkw" src="Assets/Images/DKW.jpg"></a></div>
+        <div class="search-card mb-3 w-md-45"><a class="search-card" href="result-details.html"><img class="card-img" alt="dkw" src="Assets/Images/DKW.jpg"></a></div>
+        <div class="search-card mb-3 w-md-45"><a class="search-card" href="result-details.html"><img class="card-img" alt="dkw" src="Assets/Images/DKW.jpg"></a></div>
+        <div class="search-card mb-3 w-md-45"><a class="search-card" href="result-details.html"><img class="card-img" alt="dkw" src="Assets/Images/DKW.jpg"></a></div>
+        <div class="search-card mb-3 w-md-45"><a class="search-card" href="result-details.html"><img class="card-img" alt="dkw" src="Assets/Images/DKW.jpg"></a></div>
+        <div class="search-card mb-3 w-md-45"><a class="search-card" href="result-details.html"><img class="card-img" alt="dkw" src="Assets/Images/DKW.jpg"></a></div>
+        <div class="search-card mb-3 w-md-45"><a class="search-card" href="result-details.html"><img class="card-img" alt="dkw" src="Assets/Images/DKW.jpg"></a></div>
+    </div>
+    </section>
+
+    <footer class="bg-dark border-0 overflow"><div class="d-none d-md-block position-relative mx-auto  wrapper mt-2"><nav class="justify-content-center d-flex">
+        <ul class="d-flex list-unstyled p-lg-2 p-md-1 mt-lg-2 mt-md-3 border border-start-0 border-end-0">
+        <li class="me-lg-4"><a class="text-white text-decoration-none" href="#">HOME</a></li>
+        <li class="me-lg-4 ms-md-3"><a class="text-white text-decoration-none" href="Search.html">SEARCH</a></li>
+        <li class="me-lg-4 ms-md-3"><a class="text-white text-decoration-none" href="#aboutus">ABOUT US</a></li>
+        <li class=" me-lg-5 me-md-5 ms-md-3"><a class="text-white text-decoration-none" href="#">ADVERTISE</a></li>
+        <li class=" ms-md-5  me-md-3"><a class="text-white text-decoration-none" href="#">FACEBOOK</a></li>
+        <li class="ms-lg-4 me-md-3"><a class="text-white text-decoration-none" href="#">TWITTER</a></li>
+        <li class="ms-lg-4 me-md-3"><a class="text-white text-decoration-none" href="#">BLOG</a></li>
+        <li class="ms-lg-4"><a class="text-white text-decoration-none" href="#">GOOGLE+</a></li>
+      </ul>
+      <div class="mx-md-3 position-absolute logo-overlap bg-dark m-auto border rounded-circle p-3"><img  src="Assets/Images/Icons/location-pin.svg" alt="loc"></div>
+      </nav>
+      </div>
+      
+      <!---footer navbar-mobile version-->
+      <div class="d-block d-md-none position-relative mx-auto wrapper mt-2"><nav class="d-flex justify-content-center">
+        <ul class="text-end mt-3 d-flex flex-column list-unstyled ">
+          <li class="ms-lg-5 ms-md-5 me-md-3"><a class="text-white text-decoration-none" href="#">HOME</a></li>
+          <li class=""><a class="text-white text-decoration-none" href="Search.html">SEARCH</a></li>
+          <li class=""><a class="text-white text-decoration-none" href="#aboutus">ABOUT US</a></li>
+          <li ><a class="text-white text-decoration-none" href="#">ADVERTISE</a></li>
+        </ul>
+        <div class="bg-dark my-auto border rounded-circle p-3"><img  src="Assets/Images/Icons/location-pin.svg" alt="loc"></div>
+        <ul class="text-start mt-3 d-flex flex-column list-unstyled ">
+        <li ><a class="text-white text-decoration-none" href="#">BLOG</a></li>
+        <li class=""><a class="text-white text-decoration-none" href="#">GOOGL</a></li>
+        <li class=""><a class="text-white text-decoration-none" href="#">TWITTER</a></li>
+        <li class=""><a class="text-white text-decoration-none" href="#">FACEBOOK</a></li>
+      </ul>
+      </nav>
+
+      </div>
+
+      <div class="mt-4 text-white d-md-flex justify-content-around">
+          <div class="w-25 d-none d-md-block"><h2 class="text-center fs-5 text-white">SUBSCRIBE</h2><form action="#">
+        <div class="w-100 input-group ms-auto ms-lg-4"><input class="w-50 bg-dark border" type="text" placeholder="you@example.com"><button class="px-4 py-1 bg-button-foot text-white border-0">send</button></div></form></div>
+        <!--subsc. for mobile device-->
+        <div class="w-75 mx-auto d-block d-md-none"><h2 class="text-center fs-5 text-white">SUBSCRIBE</h2><form action="#">
+            <div class="w-100 input-group  ms-4"><input class="w-50 bg-dark border" type="text" placeholder="you@example.com"><button class="px-4 py-1 bg-button-foot text-white border-0">send</button></div></form></div>
+            <!--end of mobile-->
+        <div class="d-none d-md-block text-center w-25"><h2 class="fs-5">CONTACT</h2> <h4 class="small fw-light">Have a question or submission?</h4><h4 class="small text-danger">info@Deutschwelt.com</h4></div>
+        <div class="d-none d-md-block w-25 text-center"><h2 class="fs-5">ABOUT</h2><h4 class="mx-auto w-75 small fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime perferendis deleniti. Earum,<span class="text-danger">officiis commodi!</span></h4></div>
+
+        <!--contact and about us mobile device-->
+        <div class="mt-3 d-flex justify-content-around d-md-none">        
+        <div class="text-center w-50"><h2 class="fs-5">CONTACT</h2> <h4 class="small fw-light">Have a question or submission?</h4><h4 class="small text-danger">info@Deutschwelt.com</h4></div>
+        <div class="w-50 text-center"><h2 class="fs-5">ABOUT</h2><h4 class="mx-auto w-75 small fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime perferendis deleniti. Earum,<span class="text-danger">officiis commodi!</span></h4></div></div>
+        <!--end of mobile-->
+        </div>
+
+        <div class="bg-footer-social text-white overflow"><div>
+            <div class="fonts-cont ms-md-3 ms-lg-4">
+            <img class="me-1" src="Assets/Images/Icons/facebook.svg" alt="facebook">
+            <img class="me-1" src="Assets/Images/Icons/whatsapp.svg" alt="whatsapp">
+            <img class="me-1" src="Assets/Images/Icons/twitter.svg" alt="twitter">
+            <img class="me-1" src="Assets/Images/Icons/instagram.svg" alt="instagram">
+        </div> <div class="float-end small text-footer-social"><p>Lorem ipsum dolor sit amet consectetur,<span class="text-white">adipisicing elit.</span> Minus autem ex, sit a exercitationem quo.</p></div></div></div>
+    </footer>
+</body>
+
+</html>

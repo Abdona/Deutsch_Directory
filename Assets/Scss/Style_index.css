@@ -1,0 +1,125 @@
+.home-bg-img {
+  background: url(../Images/BerlinTor.webp) no-repeat;
+  background-size: cover;
+  background-position: 47% 77%;
+  height: 87vh;
+}
+
+.logo-overlap {
+  z-index: 1;
+}
+
+.bg-navbar {
+  background-color: #d35649;
+}
+
+.hambutt {
+  display: inline-block;
+}
+
+.hambutt div {
+  background-color: #f5f5dc;
+  width: 15px;
+  margin-right: 5px;
+  height: 2px;
+  border-radius: 30%;
+}
+
+.ham-2 {
+  margin-top: 3px;
+}
+
+.ham-3 {
+  margin-top: 3px;
+}
+
+.bg-lightred {
+  background-color: #e17f65;
+}
+
+.bg-lightgrey {
+  background-color: #98a4a5;
+}
+
+.bg-lightblue {
+  background-color: #509bd7;
+}
+
+.bg-nav {
+  background-color: #d3564a;
+}
+
+.home-form-col {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 768px) {
+  .nav-wrapper {
+    height: inherit;
+    position: absolute;
+  }
+  .nav-height {
+    height: 50px;
+  }
+  .home-bg-img {
+    background: url(../Images/BerlinTor.webp) no-repeat;
+    background-size: cover;
+    background-position: 0% 77%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .w-md-68 {
+    width: 68% !important;
+  }
+  .search-button:active {
+    background-color: #509bd7 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-lg-78 {
+    width: 78%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .w-md-15 {
+    width: 15% !important;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1024px) {
+  .w-md-34 {
+    width: 34%;
+  }
+  .w-lg-75 {
+    width: 75%;
+  }
+  .w-lg-10 {
+    width: 10%;
+  }
+}
+
+.m-icon {
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.bg-button-foot {
+  background-color: #444;
+}
+
+.bg-footer-social {
+  background-color: #1f1f1f;
+}
+
+.text-footer-social {
+  color: #454548;
+}
+/*# sourceMappingURL=Style_index.css.map */
