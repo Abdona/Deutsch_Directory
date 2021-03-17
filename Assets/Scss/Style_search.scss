@@ -10,3 +10,22 @@
 .margin-top {
   margin-top: 106px;
 }
+
+@media (min-width: 768px) {
+  .w-md-45 {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .search-card {
+    width: 30%;
+    height: 241px;
+    overflow: hidden;
+
+    .card-img {
+      max-width: 100%;
+      height: inherit;
+    }
+  }
+}
