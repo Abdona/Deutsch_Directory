@@ -13,21 +13,21 @@ It has 3 pages, Main page where you can find 2 main sections,the search section 
 
 # Search Page
 
-![screenshot](/Assets/Images/searchlg.png) | ![screenshot](/Assets/Images/searchpagemd.jpg) | ![screenshot](/Assets/Images/homepagecs.jpg)
-- | - | -
-Mobile View  | Tablet View   | Laptop View
+| ![screenshot](/Assets/Images/searchlg.png) | ![screenshot](/Assets/Images/searchpagemd.jpg) | ![screenshot](/Assets/Images/homepagecs.jpg) |
+| :------------: | :-------------:| :-------------: |
+|  Mobile View  |  Tablet View   | Laptop View |
 
 # Details Page
 
-![screenshot](/Assets/Images/detailsxs.jpg) | ![screenshot](/Assets/Images/detailsmd.jpg) | ![screenshot](/Assets/Images/detailslg.png)
------------- | ------------- | -------------
+| ![screenshot](/Assets/Images/detailsxs.jpg) | ![screenshot](/Assets/Images/detailsmd.jpg) | ![screenshot](/Assets/Images/detailslg.png) |
+| :------------: | :-------------:| :-------------: |
 Mobile View  | Tablet View   | Laptop View
 
 # Navigation Bar
 
-![screenshot](/Assets/Images/navxs.jpg) | ![screenshot](/Assets/Images/navlg.jpg) | ![screenshot](/Assets/Images/navbaglg.png)
------------- | ------------- | -------------
-Mobile View  | Tablet View   | Laptop View
+| ![screenshot](/Assets/Images/navxs.jpg) | ![screenshot](/Assets/Images/navlg.jpg) | ![screenshot](/Assets/Images/navbaglg.png) |
+| :------------: | :-------------:| :-------------: |
+| Mobile View  | Tablet View   | Laptop View |
 
 ## Built With
 
