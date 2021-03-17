@@ -5,6 +5,10 @@
   height: 87vh;
 }
 
+.logo-overlap {
+  z-index: 2;
+}
+
 .bg-navbar {
   background-color: #d35649;
 }
@@ -62,9 +66,6 @@
     background-size: cover;
     background-position: 0% 77%;
     height: auto;
-  }
-  .logo-overlap {
-    z-index: 2;
   }
   .w-lg-78 {
     width: 78%;
