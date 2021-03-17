@@ -5,6 +5,10 @@
   height: 87vh;
 }
 
+.bg-navbar {
+  background-color: #d35649;
+}
+
 .hambutt {
   display: inline-block;
 }
@@ -98,5 +102,9 @@
 
 .overflow {
   overflow: auto;
+}
+
+.bg-button-foot {
+  background-color: #444;
 }
 /*# sourceMappingURL=Style_index.css.map */

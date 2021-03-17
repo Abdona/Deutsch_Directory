@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="position-relative bg-danger">
+    <header class="position-relative bg-navbar">
         <nav class="mt-md-0 nav nav-height justify-content-md-start justify-content-center">
             <a href="index.html" class="mt-3 mt-md-1 ms-md-4 text-decoration-none text-white">
                 <h1 class="fs-4">
@@ -57,7 +57,7 @@
                         class="form-select" type="text" id="Center" name="Center_name"></div>
                 <div class="d-block d-md-none w-md-15"><label class="fw-bold d-block" for="Level">Center Name:*</label><input
                         class="form-select" type="text" id="Level" name="level"></div>
-                <div><label class="fw-bold d-block" for="level">Level:</label><select class="form-select" name="level"
+                <div class="w-md-15"><label class="fw-bold d-block" for="level">Level:</label><select class="form-select" name="level"
                         id="level">
                         <option hidden disabled selected value> -- select an option -- </option>
                         <option value="A1">A1</option>
@@ -75,7 +75,7 @@
                         <option value="Aspektte-int">Aspektte-Intensive</option>
                         <option value="Aspektte">Aspektte</option>
                     </select></div>
-                <div><label class="fw-bold d-block" for="type">Type:</label><select
+                <div class="w-md-15"><label class="fw-bold d-block" for="type">Type:</label><select
                         class="form-select" name="type" id="type">
                         <option hidden disabled selected value> -- select an option -- </option>
                         <option value="Conversation">Conversation</option>
@@ -144,7 +144,15 @@
         <li class=""><a class="text-white text-decoration-none" href="#">FACEBOOK</a></li>
       </ul>
       </nav>
+
       </div>
+
+      <footer class="mt-4 text-white d-flex justify-content-around">
+          <div class="w-25"><h2 class="text-center fs-5 text-white">SUBSCRIBE</h2><form action="#">
+        <div class="w-100 input-group ms-auto ms-lg-4"><input class="w-50 bg-dark border" type="text" placeholder="you@example.com"><button class="px-4 py-1 bg-button-foot text-white border-0">send</button></div></form></div>
+        <div class="text-center w-25"><h2 class="fs-5">CONTACT</h2> <h4 class="small fw-light">Have a question or submission?</h4><h4 class="small text-danger">info@Deutschwelt.com</h4></div>
+        <div class="w-25 text-center"><h2 class="fs-5">ABOUT</h2><h4 class="mx-auto w-75 small fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime perferendis deleniti. Earum,<span class="text-danger">officiis commodi!</span></h4></div>
+    </footer>
       </header>
 
 </body>
