@@ -70,6 +70,16 @@
     height: auto;
   }
 
+  @media (max-width: 1023px) {
+    .w-md-68 {
+      width: 68% !important;
+    }
+
+    .search-button:active {
+      background-color: #509bd7 !important;
+    }
+  }
+
   .w-lg-78 {
     width: 78%;
   }

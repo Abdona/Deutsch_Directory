@@ -67,6 +67,18 @@
     background-position: 0% 77%;
     height: auto;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .w-md-68 {
+    width: 68% !important;
+  }
+  .search-button:active {
+    background-color: #509bd7 !important;
+  }
+}
+
+@media (min-width: 768px) {
   .w-lg-78 {
     width: 78%;
   }
