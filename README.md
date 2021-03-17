@@ -70,4 +70,4 @@ Design idea by [Mathew Njuguna and Sam Achola on Behance](https://www.behance.ne
 
 ## 📝 License
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](./LICENSE) licensed.
